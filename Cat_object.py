@@ -19,7 +19,8 @@ cat_one.residence_place = "Homeless"
 
 print("Kind of animal : ", cat_one.animal_kind)
 print("Name : ", cat_one.name)
-print("Breed : ", cat_one.breed)
-print("Sex : ", cat_one.sex)
-print("Age : ", cat_one.age)
+# print("Breed : ", cat_one.breed)
+print("Breed : ", cat_one.get_breed())  # Это правильный вывод на печать через функцию get
+print("Sex : ", cat_one.get_sex())
+print("Age : ", cat_one.get_age())
 print("Place of residence : ", cat_one.residence_place)

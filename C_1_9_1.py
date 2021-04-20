@@ -14,7 +14,7 @@ class Square:
     def get_area_square(self):
         return self.a ** 2
 
-
+# добавляем клас Круг для вычесления площади
 class Circle:
     def __init__(self, r, p=3.14):
         self.r = r
